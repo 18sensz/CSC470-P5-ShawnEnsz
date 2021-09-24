@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFakeEmployeeReposit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3 Code", "..\P3 Code\P3 Code.csproj", "{6B560E86-F9D5-4C6B-8674-9176C37B73E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestAppUserFakeRepository", "..\UnitTestAppUserFakeRepository\UnitTestAppUserFakeRepository.csproj", "{D34F4C93-7196-4623-8C65-6B4C4C6EF5F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B560E86-F9D5-4C6B-8674-9176C37B73E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B560E86-F9D5-4C6B-8674-9176C37B73E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B560E86-F9D5-4C6B-8674-9176C37B73E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34F4C93-7196-4623-8C65-6B4C4C6EF5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34F4C93-7196-4623-8C65-6B4C4C6EF5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34F4C93-7196-4623-8C65-6B4C4C6EF5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34F4C93-7196-4623-8C65-6B4C4C6EF5F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

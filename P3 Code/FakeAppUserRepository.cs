@@ -42,15 +42,18 @@ namespace P3_Code
             {
                 if(appUser.Password == Password && appUser.isAuthenticated)
                 {
+                    //Success login
                     return true;
                 }
                 else
                 {
+                    //Incorrect creds or not authed
                     return false;
                 }
             }
             else
             {
+                //User does not exist
                 return false;
             }
         }

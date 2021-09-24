@@ -1,0 +1,17 @@
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\UnitTestAppUserFakeRepository.dll
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\UnitTestAppUserFakeRepository.pdb
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\P3 Code.exe
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\P3 Code.pdb
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\P3 Code.exe.config
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.csprojAssemblyReference.cache
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.csproj.CopyComplete
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.dll
+C:\Users\Shawn\source\repos\CSC470-P3-ShawnEnsz\UnitTestAppUserFakeRepository\obj\Debug\UnitTestAppUserFakeRepository.pdb
