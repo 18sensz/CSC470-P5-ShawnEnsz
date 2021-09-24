@@ -1,4 +1,5 @@
 ﻿using System;
+using P3_Code;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestFakeEmployeeRepository
@@ -10,10 +11,13 @@ namespace UnitTestFakeEmployeeRepository
         public void GetSalaryWithGoodIdIsCorrect()
         {
             //Arrange
-            FakeEmployeeRepository EmpRepositor = new FakeEmployeeRepository();
+            const int ID = 1;
+            const decimal EXPECTED_SALARY = 1337.69M;
+            FakeEmployeeRepository EmpRepository = new FakeEmployeeRepository();
             //Act
-
+            decimal ActualSalary = EmpRepository.GetSalary(ID);
             //Assert
+            Assert.AreEqual(EXPECTED_SALARY, ActualSalary);
         }
     }
 }

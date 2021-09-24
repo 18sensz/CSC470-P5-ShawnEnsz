@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSC470_P3
+namespace P3_Code
 {
     public class FakeEmployeeRepository : IEmployeeRepository
     {
@@ -40,7 +40,7 @@ namespace CSC470_P3
                     curMaxId = keyValPair.Key;
                 }
             }
-            return curMaxId++;
+            return ++curMaxId;
         }
 
         public int Save(Employee Emp)
