@@ -22,7 +22,7 @@ namespace P3_Code
                     LastName = "Ensz",
                     FirstName = "Shawn",
                     EmailAddress = "fakeemail@gmail.com",
-                    isAuthenticated = true,
+                    isAuthenticated = false,
                 });
                 AppUsers.Add("18Ben", new AppUser
                 {
@@ -40,7 +40,7 @@ namespace P3_Code
             AppUser appUser = GetByUserName(UserName);
             if(appUser != null)
             {
-                if(appUser.Password == Password && appUser.isAuthenticated)
+                if(appUser.Password == Password)
                 {
                     //Success login
                     return true;

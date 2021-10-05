@@ -20,6 +20,12 @@ namespace P3_Code
         private void FormMain_Load(object sender, EventArgs e)
         {
             CenterToScreen();
+            FormLogin loginForm = new FormLogin();
+            DialogResult result = loginForm.ShowDialog();
+            while(!loginForm.authenticatedUser.isAuthenticated && result == DialogResult.OK)
+            {
+
+            }
         }
     }
 }
