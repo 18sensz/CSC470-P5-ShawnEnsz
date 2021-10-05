@@ -1,6 +1,6 @@
 ﻿namespace P3_Code
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.

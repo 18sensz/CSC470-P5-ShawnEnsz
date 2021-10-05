@@ -1,0 +1,9 @@
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\bin\Debug\P3 Code.exe.config
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\bin\Debug\P3 Code.exe
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\bin\Debug\P3 Code.pdb
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\obj\Debug\P4 Code.csprojAssemblyReference.cache
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\obj\Debug\P3_Code.Properties.Resources.resources
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\obj\Debug\P4 Code.csproj.GenerateResource.cache
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\obj\Debug\P4 Code.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\obj\Debug\P3 Code.exe
+C:\Users\Shawn\Source\Repos\CSC470-P4-ShawnEnsz-\P3 Code\obj\Debug\P3 Code.pdb
