@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\P3 Code"
+    "\\P3 Code",
+    "\\UnitTestAppUserFakeRepository"
   ],
+  "SelectedNode": "\\UnitTestAppUserFakeRepository\\UnitTestAppUserFakeRepository.csproj",
   "PreviewInSolutionExplorer": false
 }

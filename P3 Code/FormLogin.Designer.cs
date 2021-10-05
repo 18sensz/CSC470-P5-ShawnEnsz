@@ -54,21 +54,22 @@
             // usernameLabel
             // 
             this.usernameLabel.AutoSize = true;
-            this.usernameLabel.Location = new System.Drawing.Point(42, 34);
+            this.usernameLabel.Location = new System.Drawing.Point(35, 34);
             this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(55, 13);
+            this.usernameLabel.Size = new System.Drawing.Size(63, 13);
             this.usernameLabel.TabIndex = 2;
-            this.usernameLabel.Text = "Username";
+            this.usernameLabel.Text = "User Name:";
+            this.usernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // passwordLabel
             // 
             this.passwordLabel.AutoSize = true;
             this.passwordLabel.Location = new System.Drawing.Point(42, 80);
             this.passwordLabel.Name = "passwordLabel";
-            this.passwordLabel.Size = new System.Drawing.Size(53, 13);
+            this.passwordLabel.Size = new System.Drawing.Size(56, 13);
             this.passwordLabel.TabIndex = 3;
-            this.passwordLabel.Text = "Password";
-            this.passwordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.passwordLabel.Text = "Password:";
+            this.passwordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // loginButton
             // 
@@ -88,6 +89,7 @@
             this.cancelButton.TabIndex = 5;
             this.cancelButton.Text = "Cancel";
             this.cancelButton.UseVisualStyleBackColor = true;
+            this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
             // FormLogin
             // 

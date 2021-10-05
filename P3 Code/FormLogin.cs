@@ -39,5 +39,13 @@ namespace P3_Code
                 MessageBox.Show("Incorrect UserName or Password.", "Attention");
             }
         }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            //Create a default app user so it doesnt return null and cause exception
+            authenticatedUser = new AppUser();
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
+        }
     }
 }
