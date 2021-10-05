@@ -24,12 +24,12 @@ namespace P3_Code
                     EmailAddress = "fakeemail@gmail.com",
                     isAuthenticated = false,
                 });
-                AppUsers.Add("18Ben", new AppUser
+                AppUsers.Add("test", new AppUser
                 {
-                    Username = "18Ben",
-                    Password = "pass123",
-                    LastName = "Schaeffer",
-                    FirstName = "Ben",
+                    Username = "test",
+                    Password = "test",
+                    LastName = "Tanner",
+                    FirstName = "bill",
                     EmailAddress = "realemail@gmail.com",
                     isAuthenticated = false,
                 });
