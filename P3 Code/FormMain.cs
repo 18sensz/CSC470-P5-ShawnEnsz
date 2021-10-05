@@ -26,6 +26,15 @@ namespace P3_Code
             {
 
             }
+
+            if(result != DialogResult.OK)
+            {
+                this.Close();
+            }
+            else
+            {
+                this.Text = "Main- No Project Selected";
+            }
         }
     }
 }
