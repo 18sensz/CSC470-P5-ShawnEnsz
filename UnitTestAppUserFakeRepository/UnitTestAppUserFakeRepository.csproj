@@ -56,7 +56,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\P3 Code\P4 Code.csproj">
+    <ProjectReference Include="..\P4 Code\P4 Code.csproj">
       <Project>{6B560E86-F9D5-4C6B-8674-9176C37B73E0}</Project>
       <Name>P4 Code</Name>
     </ProjectReference>
