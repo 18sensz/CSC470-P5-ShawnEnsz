@@ -1,0 +1,13 @@
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Release\P3 Code.exe.config
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Release\P3 Code.exe
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Release\P3 Code.pdb
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P3_Code.FormCreateProject.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P3_Code.FormLogin.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P3_Code.FormMain.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P3_Code.FormModifyProject.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P3_Code.FormSelectProject.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P3_Code.Properties.Resources.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P5 Code.csproj.GenerateResource.cache
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P5 Code.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P3 Code.exe
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Release\P3 Code.pdb

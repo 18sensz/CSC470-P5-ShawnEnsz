@@ -14,6 +14,7 @@ namespace P3_Code
     {
         public FakeProjectRepository fakeProjectRepository = new FakeProjectRepository();
         public FakePreferenceRepository fakePreferenceRepository = new FakePreferenceRepository();
+
         public FormMain()
         {
             InitializeComponent();
@@ -43,6 +44,9 @@ namespace P3_Code
 
                 }
                 this.Text = "Main - " + selectProjectForm.selectedProject.Name;
+                fakeProjectRepository.currentProject.Name = selectProjectForm.selectedProject.Name;
+                fakeProjectRepository.currentProject.Id = selectProjectForm.selectedProject.Id;
+
             }
         }
 
@@ -53,7 +57,8 @@ namespace P3_Code
             if(result == DialogResult.OK)
             {
                 this.Text = "Main - " + selectProjectForm.selectedProject.Name;
-
+                fakeProjectRepository.currentProject.Name = selectProjectForm.selectedProject.Name;
+                fakeProjectRepository.currentProject.Id = selectProjectForm.selectedProject.Id;
             }
             else
             {
@@ -83,6 +88,21 @@ namespace P3_Code
             {
                 FormModifyProject modifyProjectForm = new FormModifyProject(fakeProjectRepository, selectProjectForm.selectedProject);
                 result = modifyProjectForm.ShowDialog();
+            }
+            else
+            {
+
+            }
+        }
+
+        private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormSelectProject selectProjectForm = new FormSelectProject(fakeProjectRepository);
+            var result = selectProjectForm.ShowDialog(this);
+            if (result == DialogResult.OK)
+            {
+                FormRemoveProject removeProjectForm = new FormRemoveProject(fakeProjectRepository, selectProjectForm.selectedProject);
+                result = removeProjectForm.ShowDialog();
             }
             else
             {

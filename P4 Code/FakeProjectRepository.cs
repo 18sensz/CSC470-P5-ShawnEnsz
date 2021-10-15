@@ -15,6 +15,7 @@ namespace P3_Code
         public const string EMPTY_PROJECT_NAME_ERROR = "Project name is empty or blank.";
 
         public static List<Project> projects;
+        public Project currentProject = new Project();
         private int idIncrement;
         public FakeProjectRepository()
         {
@@ -58,6 +59,10 @@ namespace P3_Code
         public string Remove(int projectId)
         {
             var index = projects.FindIndex(p => p.Id == projectId);
+            if(projects[index].Name == currentProject.Name)
+            {
+                return "Cannot remove current session project!";
+            }
             if (index >= 0)
             {
                 projects.RemoveAt(index);
@@ -70,6 +75,10 @@ namespace P3_Code
         }
         public string Modify(int projectId, Project project)
         {
+            if(projectId == currentProject.Id)
+            {
+                return "Cannot modify current session!";
+            }
             if (isDuplicateName(project.Name))
             {
                 return DUPLICATE_PROJECT_NAME_ERROR;

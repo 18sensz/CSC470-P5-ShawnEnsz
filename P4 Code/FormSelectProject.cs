@@ -30,7 +30,7 @@ namespace P3_Code
             CenterToScreen();
             foreach(Project project in fakeRepo.GetAll())
             {
-                listBox1.Items.Add(project.Id.ToString() + project.Name);
+                listBox1.Items.Add(project.Name);
             }
         }
 

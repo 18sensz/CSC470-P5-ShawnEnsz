@@ -10,31 +10,28 @@ using System.Windows.Forms;
 
 namespace P3_Code
 {
-    public partial class FormModifyProject : Form
+    public partial class FormRemoveProject : Form
     {
         public FakeProjectRepository fakeProjectRepo;
         public Project selectedProject;
-        public FormModifyProject(FakeProjectRepository fakeProjectRepository, Project _selectedProject)
+        public FormRemoveProject(FakeProjectRepository fakeProjectRepository, Project _selectedProject)
         {
             InitializeComponent();
             fakeProjectRepo = fakeProjectRepository;
             selectedProject = _selectedProject;
         }
 
-        private void cancelButton_Click(object sender, EventArgs e)
+        private void FormRemoveProject_Load(object sender, EventArgs e)
         {
-            this.DialogResult = DialogResult.Cancel;
-            this.Close();
+            CenterToScreen();
+            this.textBox1.Text = selectedProject.Name;
         }
 
-        private void modifyButton_Click(object sender, EventArgs e)
+        private void removeButton_Click(object sender, EventArgs e)
         {
-            //selectedProject.Name = textBox1.Text;
-            Project temp = new Project();
-            temp.Name = textBox1.Text;
-            temp.Id = selectedProject.Id;
-            var result = fakeProjectRepo.Modify(temp.Id, temp);
-            if(result == "")
+            
+            var result = fakeProjectRepo.Remove(selectedProject.Id);
+            if (result == "")
             {
                 //No errors
                 this.DialogResult = DialogResult.OK;
@@ -47,9 +44,10 @@ namespace P3_Code
             }
         }
 
-        private void FormModifyProject_Load(object sender, EventArgs e)
+        private void cancelButton_Click(object sender, EventArgs e)
         {
-            CenterToScreen();
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
         }
     }
 }
