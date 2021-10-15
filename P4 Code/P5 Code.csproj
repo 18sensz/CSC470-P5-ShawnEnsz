@@ -50,6 +50,12 @@
     <Compile Include="FakeAppUserRepository.cs" />
     <Compile Include="FakePreferenceRepository.cs" />
     <Compile Include="FakeProjectRepository.cs" />
+    <Compile Include="FormCreateProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCreateProject.Designer.cs">
+      <DependentUpon>FormCreateProject.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,12 @@
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModifyProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModifyProject.Designer.cs">
+      <DependentUpon>FormModifyProject.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSelectProject.cs">
       <SubType>Form</SubType>
@@ -75,11 +87,17 @@
     <Compile Include="Program.cs" />
     <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCreateProject.resx">
+      <DependentUpon>FormCreateProject.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModifyProject.resx">
+      <DependentUpon>FormModifyProject.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSelectProject.resx">
       <DependentUpon>FormSelectProject.cs</DependentUpon>

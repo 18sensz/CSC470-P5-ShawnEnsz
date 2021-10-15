@@ -40,6 +40,7 @@ namespace P3_Code
             if (project.Name != string.Empty && !isDuplicateName(project.Name))
             {
                 id = GetNextid();
+                project.Id = id;
                 projects.Add(project);
                 return NO_ERROR;
             }

@@ -10,3 +10,5 @@ C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.exe.co
 C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.exe
 C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.pdb
 C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3_Code.FormSelectProject.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3_Code.FormCreateProject.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3_Code.FormModifyProject.resources

@@ -60,5 +60,34 @@ namespace P3_Code
 
             }
         }
+
+        private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormCreateProject formCreateProject = new FormCreateProject(fakeProjectRepository);
+            var result = formCreateProject.ShowDialog(this);
+            if (result == DialogResult.OK)
+            {
+                
+            }
+            else
+            {
+
+            }
+        }
+
+        private void modifyProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormSelectProject selectProjectForm = new FormSelectProject(fakeProjectRepository);
+            var result = selectProjectForm.ShowDialog(this);
+            if (result == DialogResult.OK)
+            {
+                FormModifyProject modifyProjectForm = new FormModifyProject(fakeProjectRepository, selectProjectForm.selectedProject);
+                result = modifyProjectForm.ShowDialog();
+            }
+            else
+            {
+
+            }
+        }
     }
 }

@@ -50,7 +50,7 @@ namespace P3_Code
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
-
+            CenterToScreen();
         }
     }
 }
