@@ -30,7 +30,7 @@ namespace P3_Code
             CenterToScreen();
             foreach(Project project in fakeRepo.GetAll())
             {
-                listBox1.Items.Add(project.Name);
+                listBox1.Items.Add(project.Id.ToString() + "-" + project.Name);
             }
         }
 
@@ -43,6 +43,7 @@ namespace P3_Code
         private void selectButton_Click(object sender, EventArgs e)
         {
             var selectedProjectName = listBox1.GetItemText(listBox1.SelectedItem);
+            selectedProjectName = selectedProjectName.Split('-')[1];
             var index = fakeRepo.GetAll().FindIndex(p => p.Name == selectedProjectName);
             selectedProject = fakeRepo.GetAll()[index];
             this.DialogResult = DialogResult.OK;

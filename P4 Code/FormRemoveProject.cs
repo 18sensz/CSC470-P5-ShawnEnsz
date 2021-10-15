@@ -29,8 +29,17 @@ namespace P3_Code
 
         private void removeButton_Click(object sender, EventArgs e)
         {
+            string result = "";
+            DialogResult dialogResult = MessageBox.Show("Are you sure?", "Warning", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                result = fakeProjectRepo.Remove(selectedProject.Id);
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                
+            }
             
-            var result = fakeProjectRepo.Remove(selectedProject.Id);
             if (result == "")
             {
                 //No errors

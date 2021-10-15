@@ -12,7 +12,7 @@ namespace P3_Code
 {
     public partial class FormLogin : Form
     {
-        public AppUser authenticatedUser;
+        public AppUser authenticatedUser = new AppUser();
         private FakeAppUserRepository appRepo = new FakeAppUserRepository();
         public FormLogin()
         {

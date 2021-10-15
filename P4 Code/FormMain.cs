@@ -26,7 +26,7 @@ namespace P3_Code
 
             FormLogin loginForm = new FormLogin();
             DialogResult result = loginForm.ShowDialog();
-            while(!loginForm.authenticatedUser.isAuthenticated && result == DialogResult.OK)
+            while(!loginForm.authenticatedUser.isAuthenticated && result != DialogResult.OK)
             {
 
             }
@@ -34,6 +34,7 @@ namespace P3_Code
             if(result != DialogResult.OK)
             {
                 this.Close();
+                
             }
             else
             {
@@ -43,9 +44,17 @@ namespace P3_Code
                 {
 
                 }
-                this.Text = "Main - " + selectProjectForm.selectedProject.Name;
-                fakeProjectRepository.currentProject.Name = selectProjectForm.selectedProject.Name;
-                fakeProjectRepository.currentProject.Id = selectProjectForm.selectedProject.Id;
+                if (result != DialogResult.OK)
+                {
+                    this.Close();
+                }
+                else
+                {
+                    this.Text = "Main - " + selectProjectForm.selectedProject.Name;
+                    fakeProjectRepository.currentProject.Name = selectProjectForm.selectedProject.Name;
+                    fakeProjectRepository.currentProject.Id = selectProjectForm.selectedProject.Id;
+                }
+                
 
             }
         }

@@ -38,6 +38,7 @@ namespace P3_Code
         }
         public string Add(Project project, out int id)
         {
+            project.Name = project.Name.Trim();
             if (project.Name != string.Empty && !isDuplicateName(project.Name))
             {
                 id = GetNextid();
@@ -75,7 +76,8 @@ namespace P3_Code
         }
         public string Modify(int projectId, Project project)
         {
-            if(projectId == currentProject.Id)
+            project.Name = project.Name.Trim();
+            if (projectId == currentProject.Id)
             {
                 return "Cannot modify current session!";
             }
@@ -86,6 +88,7 @@ namespace P3_Code
             var index = projects.FindIndex(p => p.Id == projectId);
             if (index >= 0)
             {
+                
                 projects[index] = project;
                 return NO_ERROR;
             }
