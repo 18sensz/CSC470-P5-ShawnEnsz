@@ -104,6 +104,7 @@
             this.Controls.Add(this.usernameTextbox);
             this.Name = "FormLogin";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

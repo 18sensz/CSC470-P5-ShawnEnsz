@@ -8,12 +8,14 @@ namespace P3_Code
 {
     class FakePreferenceRepository : IPreferenceRepository
     {
+
         public const string PREFERENCE_PROJECT_ID = "Project_Id";
         public const string PREFERENCE_PROJECT_NAME = "Project_Name";
         private const string NO_ERROR = "";
 
-        Dictionary<string, Dictionary<string, string>> Preferences;
+        Dictionary<string, Dictionary<string, string>> Preferences = new Dictionary<string, Dictionary<string, string>>();
 
+        
         public string GetPreference(string UserName, string PreferenceName)
         {
             Dictionary<string, string> NameValuePair = new Dictionary<string, string>();

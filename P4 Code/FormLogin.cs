@@ -47,5 +47,10 @@ namespace P3_Code
             this.DialogResult = DialogResult.Cancel;
             this.Close();
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

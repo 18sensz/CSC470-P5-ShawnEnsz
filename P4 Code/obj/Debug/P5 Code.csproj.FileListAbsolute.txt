@@ -9,3 +9,4 @@ C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3 Code.pdb
 C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.exe.config
 C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.exe
 C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.pdb
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3_Code.FormSelectProject.resources

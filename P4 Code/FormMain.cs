@@ -20,6 +20,8 @@ namespace P3_Code
         private void FormMain_Load(object sender, EventArgs e)
         {
             CenterToScreen();
+            FakeProjectRepository fakeProjectRepository = new FakeProjectRepository();
+            FakePreferenceRepository fakePreferenceRepository = new FakePreferenceRepository();
             FormLogin loginForm = new FormLogin();
             DialogResult result = loginForm.ShowDialog();
             while(!loginForm.authenticatedUser.isAuthenticated && result == DialogResult.OK)
@@ -33,7 +35,13 @@ namespace P3_Code
             }
             else
             {
-                this.Text = "Main- No Project Selected";
+                FormSelectProject selectProjectForm = new FormSelectProject(fakeProjectRepository);
+                result = selectProjectForm.ShowDialog(this);
+                while (result == DialogResult.OK)
+                {
+
+                }
+                this.Text = "Main - " + selectProjectForm.selectedProject.Name;
             }
         }
     }

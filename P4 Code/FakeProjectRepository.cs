@@ -15,8 +15,26 @@ namespace P3_Code
         public const string EMPTY_PROJECT_NAME_ERROR = "Project name is empty or blank.";
 
         public static List<Project> projects;
-        private int idIncrement = projects.Count();
-
+        private int idIncrement;
+        public FakeProjectRepository()
+        {
+            if (projects == null)
+            {
+                projects = new List<Project>();
+                //Default Preferences to wwork with
+                projects.Add(new Project
+                {
+                    Id = 1,
+                    Name = "Default Project",
+                });
+                projects.Add(new Project
+                {
+                    Id = 2,
+                    Name = "Test Project",
+                });
+                idIncrement = projects.Count();
+            }
+        }
         public string Add(Project project, out int id)
         {
             if (project.Name != string.Empty && !isDuplicateName(project.Name))
