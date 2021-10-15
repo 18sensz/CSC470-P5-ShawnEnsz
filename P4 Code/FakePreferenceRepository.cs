@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace P3_Code
 {
-    class FakePreferenceRepository : IPreferenceRepository
+    public class FakePreferenceRepository : IPreferenceRepository
     {
 
         public const string PREFERENCE_PROJECT_ID = "Project_Id";

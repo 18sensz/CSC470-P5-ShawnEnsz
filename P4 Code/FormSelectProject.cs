@@ -45,6 +45,7 @@ namespace P3_Code
             var selectedProjectName = listBox1.GetItemText(listBox1.SelectedItem);
             var index = fakeRepo.GetAll().FindIndex(p => p.Name == selectedProjectName);
             selectedProject = fakeRepo.GetAll()[index];
+            this.DialogResult = DialogResult.OK;
             this.Close();
         }
     }

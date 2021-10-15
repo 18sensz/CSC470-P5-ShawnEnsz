@@ -12,6 +12,8 @@ namespace P3_Code
 {
     public partial class FormMain : Form
     {
+        public FakeProjectRepository fakeProjectRepository = new FakeProjectRepository();
+        public FakePreferenceRepository fakePreferenceRepository = new FakePreferenceRepository();
         public FormMain()
         {
             InitializeComponent();
@@ -20,8 +22,7 @@ namespace P3_Code
         private void FormMain_Load(object sender, EventArgs e)
         {
             CenterToScreen();
-            FakeProjectRepository fakeProjectRepository = new FakeProjectRepository();
-            FakePreferenceRepository fakePreferenceRepository = new FakePreferenceRepository();
+
             FormLogin loginForm = new FormLogin();
             DialogResult result = loginForm.ShowDialog();
             while(!loginForm.authenticatedUser.isAuthenticated && result == DialogResult.OK)
@@ -37,11 +38,26 @@ namespace P3_Code
             {
                 FormSelectProject selectProjectForm = new FormSelectProject(fakeProjectRepository);
                 result = selectProjectForm.ShowDialog(this);
-                while (result == DialogResult.OK)
+                while (result != DialogResult.OK)
                 {
 
                 }
                 this.Text = "Main - " + selectProjectForm.selectedProject.Name;
+            }
+        }
+
+        private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormSelectProject selectProjectForm = new FormSelectProject(fakeProjectRepository);
+            var result = selectProjectForm.ShowDialog(this);
+            if(result == DialogResult.OK)
+            {
+                this.Text = "Main - " + selectProjectForm.selectedProject.Name;
+
+            }
+            else
+            {
+
             }
         }
     }
