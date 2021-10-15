@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="AppUser.cs" />
     <Compile Include="FakeAppUserRepository.cs" />
+    <Compile Include="FakeProjectRepository.cs" />
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,7 +62,10 @@
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="IAppUserRepository.cs" />
+    <Compile Include="IProjectRepository.cs" />
+    <Compile Include="Preference.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>

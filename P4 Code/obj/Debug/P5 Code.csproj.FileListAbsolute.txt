@@ -1,0 +1,11 @@
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P5 Code.csprojAssemblyReference.cache
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3_Code.FormLogin.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3_Code.FormMain.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3_Code.Properties.Resources.resources
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P5 Code.csproj.GenerateResource.cache
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P5 Code.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3 Code.exe
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\obj\Debug\P3 Code.pdb
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.exe.config
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.exe
+C:\Users\Shawn\Source\Repos\CSC470-P5-ShawnEnsz\P4 Code\bin\Debug\P3 Code.pdb

@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\P4 Code\P4 Code.csproj">
+    <ProjectReference Include="..\P4 Code\P5 Code.csproj">
       <Project>{6B560E86-F9D5-4C6B-8674-9176C37B73E0}</Project>
-      <Name>P4 Code</Name>
+      <Name>P5 Code</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
