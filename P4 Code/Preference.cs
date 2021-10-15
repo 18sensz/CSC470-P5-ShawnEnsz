@@ -8,6 +8,8 @@ namespace P3_Code
 {
     public class Preference
     {
-
+        public string UserName;
+        public string Name;
+        public string Value;
     }
 }
